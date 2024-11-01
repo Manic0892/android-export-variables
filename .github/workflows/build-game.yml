@@ -1,7 +1,7 @@
 name: build-game
 
 # Controls when the workflow will run
-on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 
 env:
   GODOT_ANDROID_KEYSTORE_RELEASE_PATH: ./android-export-variables.keystore
