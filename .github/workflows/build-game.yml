@@ -34,8 +34,8 @@ jobs:
     - name: Set up Android SDK
       uses: android-actions/setup-android@v3
 
-    - name: Fix build error
-      run: mv ./android-export-variables.blank ./android-export-variables.keystore
+    # - name: Fix build error
+    #   run: mv ./android-export-variables.blank ./android-export-variables.keystore
 
     - name: Export game
       id: export
